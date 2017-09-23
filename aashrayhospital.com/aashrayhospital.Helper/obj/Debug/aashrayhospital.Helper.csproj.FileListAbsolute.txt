@@ -1,0 +1,7 @@
+D:\04FTP\aa\GIT\aahospital\aashrayhospital.com\aashrayhospital.Helper\bin\Debug\aashrayhospital.Helper.dll
+D:\04FTP\aa\GIT\aahospital\aashrayhospital.com\aashrayhospital.Helper\bin\Debug\aashrayhospital.Helper.pdb
+D:\04FTP\aa\GIT\aahospital\aashrayhospital.com\aashrayhospital.Helper\obj\Debug\aashrayhospital.Helper.csprojResolveAssemblyReference.cache
+D:\04FTP\aa\GIT\aahospital\aashrayhospital.com\aashrayhospital.Helper\obj\Debug\aashrayhospital.Helper.dll
+D:\04FTP\aa\GIT\aahospital\aashrayhospital.com\aashrayhospital.Helper\obj\Debug\aashrayhospital.Helper.pdb
+D:\04FTP\aa\GIT\aahospital\aashrayhospital.com\aashrayhospital.Helper\bin\Debug\log4net.dll
+D:\04FTP\aa\GIT\aahospital\aashrayhospital.com\aashrayhospital.Helper\bin\Debug\log4net.xml
