@@ -127,15 +127,34 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\bg.png" />
+    <Content Include="Content\Images\watch.png" />
+    <Content Include="Content\tools\cufon-yui.js" />
+    <Content Include="Content\tools\jquery.countdown.min.js" />
+    <Content Include="Content\tools\jquery.min.js" />
+    <Content Include="Content\tools\socicon\font\socicon-webfont.svg" />
+    <Content Include="Content\tools\socicon\generate.js" />
+    <Content Include="Content\tools\socicon\socicon.css" />
+    <Content Include="Content\tools\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="robots.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="log4net.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\tools\socicon\font\.empty" />
+    <Content Include="Content\tools\socicon\font\socicon-webfont.eot" />
+    <Content Include="Content\tools\socicon\font\socicon-webfont.ttf" />
+    <Content Include="Content\tools\socicon\font\socicon-webfont.woff" />
+    <Content Include="Content\tools\socicon\font\socicon-webfont.woff2" />
+    <Content Include="Content\tools\socicon\icons.json" />
+    <Content Include="Content\tools\socicon\readme.md" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -163,6 +182,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\UnderMaintenance.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -173,7 +193,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\aashrayhospital.Helper\aashrayhospital.Helper.csproj">
