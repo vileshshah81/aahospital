@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsHVkq7xewEOgambir8aVngAAAAACAAAAAAADZgAAwAAAABAAAACX/KeRtzKTS2W9ywkGTyZ8AAAAAASAAACgAAAAEAAAAO6csN+2NmKR68fQoY9oSiUYAAAAEJ57JTzYeEbP8ImGLC1mQiDoFk5C3A2vFAAAAIj1rilpUIU5gznjfeDPky8PNQqF</EncryptedPassword>
+    <_PublishTargetUrl>ftp://182.50.135.106/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/aashrayhospital.com.dll">
+      <publishTime>09/23/2017 18:12:49</publishTime>
+    </File>
+    <File Include="bin/aashrayhospital.Helper.dll">
+      <publishTime>09/23/2017 18:12:46</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/23/2017 16:31:22</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>09/23/2017 18:36:19</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>09/23/2017 18:36:19</publishTime>
+    </File>
+    <File Include="bin/log4net.config">
+      <publishTime>08/29/2017 23:32:28</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>09/23/2017 16:58:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/23/2017 16:31:19</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>09/23/2017 16:31:26</publishTime>
+    </File>
+    <File Include="bin/robots.txt">
+      <publishTime>02/21/2017 11:13:09</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/23/2017 16:31:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/23/2017 16:31:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>09/23/2017 16:31:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/23/2017 16:31:17</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/23/2017 16:31:18</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/23/2017 16:31:19</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/23/2017 16:31:19</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/23/2017 16:31:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/23/2017 16:31:02</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/23/2017 16:31:02</publishTime>
+    </File>
+    <File Include="Content/Images/bg.png">
+      <publishTime>02/22/2017 16:26:16</publishTime>
+    </File>
+    <File Include="Content/Images/watch.png">
+      <publishTime>02/22/2017 16:26:15</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/23/2017 16:30:38</publishTime>
+    </File>
+    <File Include="Content/tools/cufon-yui.js">
+      <publishTime>02/22/2017 16:26:19</publishTime>
+    </File>
+    <File Include="Content/tools/jquery.countdown.min.js">
+      <publishTime>02/22/2017 16:26:18</publishTime>
+    </File>
+    <File Include="Content/tools/jquery.min.js">
+      <publishTime>02/22/2017 16:26:18</publishTime>
+    </File>
+    <File Include="Content/tools/socicon/font/.empty">
+      <publishTime>02/22/2017 16:26:27</publishTime>
+    </File>
+    <File Include="Content/tools/socicon/font/socicon-webfont.eot">
+      <publishTime>02/22/2017 16:26:25</publishTime>
+    </File>
+    <File Include="Content/tools/socicon/font/socicon-webfont.svg">
+      <publishTime>02/22/2017 16:26:26</publishTime>
+    </File>
+    <File Include="Content/tools/socicon/font/socicon-webfont.ttf">
+      <publishTime>02/22/2017 16:26:24</publishTime>
+    </File>
+    <File Include="Content/tools/socicon/font/socicon-webfont.woff">
+      <publishTime>02/22/2017 16:26:24</publishTime>
+    </File>
+    <File Include="Content/tools/socicon/font/socicon-webfont.woff2">
+      <publishTime>02/22/2017 16:26:23</publishTime>
+    </File>
+    <File Include="Content/tools/socicon/generate.js">
+      <publishTime>02/22/2017 16:26:22</publishTime>
+    </File>
+    <File Include="Content/tools/socicon/icons.json">
+      <publishTime>02/22/2017 16:26:22</publishTime>
+    </File>
+    <File Include="Content/tools/socicon/readme.md">
+      <publishTime>02/22/2017 16:26:21</publishTime>
+    </File>
+    <File Include="Content/tools/socicon/socicon.css">
+      <publishTime>02/22/2017 16:26:20</publishTime>
+    </File>
+    <File Include="Content/tools/style.css">
+      <publishTime>02/22/2017 16:26:17</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/23/2017 16:30:38</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/23/2017 16:31:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/23/2017 16:31:01</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/23/2017 16:31:01</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/23/2017 16:31:01</publishTime>
+    </File>
+    <File Include="log4net.config">
+      <publishTime>08/29/2017 23:32:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/23/2017 16:58:46</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/23/2017 18:36:15</publishTime>
+    </File>
+    <File Include="robots.txt">
+      <publishTime>02/21/2017 11:13:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/23/2017 16:31:01</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/23/2017 16:31:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>09/23/2017 16:31:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>09/23/2017 16:31:04</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>09/23/2017 16:31:03</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/23/2017 16:31:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/23/2017 16:31:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/23/2017 16:31:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/23/2017 16:31:25</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/23/2017 16:31:21</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>09/23/2017 16:31:23</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>09/23/2017 16:31:23</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>09/23/2017 17:24:12</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>09/23/2017 16:30:38</publishTime>
+    </File>
+    <File Include="Views/Home/Contact.cshtml">
+      <publishTime>09/23/2017 16:30:38</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/23/2017 16:30:38</publishTime>
+    </File>
+    <File Include="Views/Home/UnderMaintenance.cshtml">
+      <publishTime>09/23/2017 17:30:18</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>09/23/2017 16:30:38</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/23/2017 16:30:38</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/23/2017 16:30:38</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/23/2017 16:30:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/23/2017 18:36:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
