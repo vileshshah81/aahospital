@@ -13,6 +13,12 @@ namespace aashrayhospital.com.Controllers
             return View();
         }
 
+        [HttpPost]
+        public void SendEmail(string recipient, string subject, string message)
+        {
+            Helper.EmailHelper.SendMail(subject, message, recipient);
+        }
+
         //public ActionResult Index()
         //{
         //    return View();

@@ -97,7 +97,7 @@ namespace aashrayhospital.Helper
                         Port = EmailSmtPport,
                         EnableSsl = EmailIsSsl,
                         UseDefaultCredentials = false,
-                        Credentials = new NetworkCredential(EmailFromAddress, EmailFromDisplayName)
+                        Credentials = new NetworkCredential(EmailFromAddress, EmailFromPassword)
                     })
                     {
                         #region ssl check
