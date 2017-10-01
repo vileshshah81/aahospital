@@ -485,15 +485,15 @@ img {
 
 .intro-text h2 {
     text-transform: uppercase;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 15px;
     font-weight: 300;
     color: #000;
 }
 
-.intro-text h1 {
+.intro-text h2 span {
 	text-transform: uppercase;
-	font-size: 110px;
+	font-size: 65px;
 	line-height: 110px;
 	font-weight: 900;
 	color: #0facef;
@@ -503,9 +503,10 @@ img {
 @media (max-width: 767px) {
 	.intro-text h2 {
 	    font-size: 30px;
+        line-height: 55px;
 	}
 
-	.intro-text h1 {
+	.intro-text h2 span {
 		font-size: 60px;
 	}
 }
@@ -1547,5 +1548,9 @@ i.icon{
 
 .footer-text p {
 	margin-top: 10px;
+}
+
+p span {
+    color: #0facef;
 }
 
