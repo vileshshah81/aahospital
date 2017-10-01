@@ -26,7 +26,7 @@ namespace aashrayhospital.Helper
         /// <param name="cc"></param>
         /// <param name="bcc"></param>
         /// <param name="attachments"></param>
-        public static void SendMail(string subject, string message, string recipient, string cc = "", string bcc = "",
+        public static void SendMail(string subject, string message, string recipient, string cc = "", string bcc = "", string replyTo = "", string replayToName = "",
             Dictionary<string, string> attachments = null)
         {
             try
@@ -43,8 +43,11 @@ namespace aashrayhospital.Helper
                     Body = message
                 })
                 {
+                    MailAddress replyAddress = !string.IsNullOrEmpty(replyTo)
+                        ? new MailAddress(replyTo, replayToName)
+                        : mailMessage.From;
                     // set reply to address
-                    mailMessage.ReplyToList.Add(mailMessage.From);
+                    mailMessage.ReplyToList.Add(replyAddress);
 
                     // Add the alternate body to the message.
                     mailMessage.AlternateViews.Add(AlternateView.CreateAlternateViewFromString(mailMessage.Body,

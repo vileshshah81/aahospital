@@ -12,6 +12,11 @@ namespace aashrayhospital.com
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.MapRoute(
+                name: "Default_Demo",
+                url: "demo",
+                defaults: new { controller = "Home", action = "index" }
+            );
 
             routes.MapRoute(
                 name: "Default",
