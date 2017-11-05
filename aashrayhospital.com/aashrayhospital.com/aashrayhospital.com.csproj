@@ -157,6 +157,8 @@
     <Content Include="Content\assets\img\slider\01.jpg" />
     <Content Include="Content\assets\img\slider\02.jpg" />
     <Content Include="Content\assets\img\slider\03.jpg" />
+    <Content Include="Content\assets\img\team\DrChiragMaster.jpg" />
+    <Content Include="Content\assets\img\team\DrPranavTrivedi.jpg" />
     <Content Include="Content\assets\img\team\member-1.jpg" />
     <Content Include="Content\assets\img\team\member-2.jpg" />
     <Content Include="Content\assets\img\team\member-3.jpg" />
@@ -230,6 +232,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Home\UnderMaintenance.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -241,11 +244,8 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <Content Include="Views\Home\UnderMaintenance.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
