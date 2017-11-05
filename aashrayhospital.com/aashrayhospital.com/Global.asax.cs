@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -10,6 +11,13 @@ namespace aashrayhospital.com
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        public static bool IsLive { get; set; }
+
+        public MvcApplication()
+        {
+            IsLive = !string.IsNullOrEmpty(ConfigurationManager.AppSettings["IsDebugLogEnable"]) && Convert.ToBoolean(ConfigurationManager.AppSettings["IsDebugLogEnable"]);
+        }
+
         protected void Application_Start()
         {
             LogConfig.Register();

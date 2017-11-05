@@ -172,34 +172,34 @@
              *                       09. Google Map js                                 *
              *-------------------------------------------------------------------------*/
 
-        var myCenter = new google.maps.LatLng(23.779908, 90.3669903);
-        function initialize() {
-            var mapProp = {
-                center: myCenter,
-                scrollwheel: false,
-                zoom: 15,
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
+        //var myCenter = new google.maps.LatLng(23.779908, 90.3669903);
+        //function initialize() {
+        //    var mapProp = {
+        //        center: myCenter,
+        //        scrollwheel: false,
+        //        zoom: 15,
+        //        mapTypeId: google.maps.MapTypeId.ROADMAP
+        //    };
 
-            var map = new google.maps.Map(document.getElementById("contactgoogleMap"), mapProp);
-            var marker = new google.maps.Marker({
-                position: myCenter,
-                animation: google.maps.Animation.BOUNCE,
-                icon: 'assets/img/map-marker.png',
-                map: map,
-            });
-            var styles = [
-                {
-                    stylers: [
-                        { hue: "#c5c5c5" },
-                        { saturation: -100 }
-                    ]
-                },
-            ];
-            map.setOptions({ styles: styles });
-            marker.setMap(map);
-        }
-        google.maps.event.addDomListener(window, 'load', initialize);
+        //    var map = new google.maps.Map(document.getElementById("contactgoogleMap"), mapProp);
+        //    var marker = new google.maps.Marker({
+        //        position: myCenter,
+        //        animation: google.maps.Animation.BOUNCE,
+        //        icon: 'assets/img/map-marker.png',
+        //        map: map,
+        //    });
+        //    var styles = [
+        //        {
+        //            stylers: [
+        //                { hue: "#c5c5c5" },
+        //                { saturation: -100 }
+        //            ]
+        //        },
+        //    ];
+        //    map.setOptions({ styles: styles });
+        //    marker.setMap(map);
+        //}
+        //google.maps.event.addDomListener(window, 'load', initialize);
 
         /*-------------------------------------------------------------------------*
          *                  10. Ajax Contact Form js                               *
