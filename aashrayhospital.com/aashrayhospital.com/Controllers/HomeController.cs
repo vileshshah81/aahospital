@@ -25,13 +25,15 @@ namespace aashrayhospital.com.Controllers
         }
 
         [HttpPost]
-        public void Contact(string name, string email, string phone, string subject, string message)
+        public ActionResult Contact(string name, string email, string phone, string subject, string message)
         {
             string body = string.Format("Name:{0} <br> Email:{1} <br> Phone:{2} <br> Subject:{3} <br> Message:{4}", name,
                 email, phone, subject, message);
             Helper.EmailHelper.SendMail(subject, body, "aashrayhospital@gmail.com", replyTo: email, replayToName: name);
 
             Helper.EmailHelper.SendMail("Thank you", "We will contact you back", email);
+
+            return RedirectToAction("Index", "Home");
         }
 
         //public ActionResult About()

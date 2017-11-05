@@ -893,7 +893,7 @@ i.icon{
 
 .team-member:hover .member-hover {
 	opacity: 1;
-	height: 50%;
+	height: 75%;
 }
 
 .member-hover h3, .member-hover .text-muted, .member-hover i.fa {
