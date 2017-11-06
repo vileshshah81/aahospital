@@ -11,13 +11,13 @@
     <meta name="description" content="When it comes to health, we are your trusted Aashray" />
     <meta name="keywords" content="Gotri, Aashray, Hospital, Orthopaedics, Dr Chirag, Dr Pranav, Trauma, Accident, Operation, Join pain, Hip pain, Knee Pain, Arthritis, joint replacement, doctor, surgeon, pelvis, Acetabulum Arthroscopic spine shoulder, osteotomies, 24x7, emergency, Padra, x-ray Vadodara, baroda, Gujarat, india, hospital in gotri, best hospital in gotri, hospital in vadodara, best hospital in vadodara, orthopadic hospital, orthopidic hospital in vadodara, dr pranava trivedi, dr chirag master, newar by gotri">
     <meta name="author" content="Aashray Hospital">
-
     <meta property="og:url" content="http://www.aashrayhospital.com/" />
     <meta property="og:image" content="http://www.aashrayhospital.com/content/images/aashrayhospital.jpg" />
     <meta property="og:title" content="Aashray Hospital" />
     <meta property="og:site_name" content="aashray hospital" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="When it comes to health, we are your trusted Aashray" />
+    <link rel="alternate" hreflang="es" href="http://es.example.com/" />
 
     <!-- Site title -->
     <title>Aashray Hospital</title>
@@ -54,7 +54,25 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script type='application/ld+json'>
+        {
+        "@@context": "http://schema.org",
+        "@@type": "Organization",
+        "name": "Aashray Hospital",
+        "image": [
+        "http://www.aashrayhospital.com/content/images/aashrayhospital.jpg"
+        ],
+        "telephone": "+91-265-2370837",
+        "address":{
+        "@@type":"PostalAddress",
+        "streetAddress":"12-A, Nuclear Park Soc., Opp. Nandish Complex, 30 mtr. Narayan Garden Road, New Alkapuri, Opp. Yash Complex, Gotri",
+        "addressLocality":"Vadodara",
+        "addressRegion":"GJ",
+        "postalCode":"390021",
+        "addressCountry":"IN"
+        }
+        }
+    </script>
 </head>
 <body>
     <!-- Preloader starts-->
@@ -310,12 +328,12 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <div class="team-member">
+                    <div class="team-member" vocab="http://schema.org/" typeof="Person">
                         <div class="member-image">
-                            <img src="~/Content/assets/img/team/DrPranavTrivedi.jpg" alt="">
+                            <img property="image" src="~/Content/assets/img/team/DrPranavTrivedi.jpg" alt="">
                         </div>
                         <div class="member-info">
-                            <h3 class="subtitle">DR. PRANAV TRIVEDI</h3>
+                            <h3 class="subtitle" property="name">DR. PRANAV TRIVEDI</h3>
                             <p class="text-muted">M.S. (Orthopaedics)</p>
                             <p>Complex Trauma & Fellowship Trained Joint Replacement Surgeon</p>
                             @*<div class="member-social">
@@ -341,12 +359,12 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6">
-                    <div class="team-member">
+                    <div class="team-member" itemscope itemtype="http://schema.org/Physician">
                         <div class="member-image">
-                            <img src="~/Content/assets/img/team/DrChiragMaster.jpg" alt="">
+                            <img itemprop="image" src="~/Content/assets/img/team/DrChiragMaster.jpg" alt="Dr Chirag Master">
                         </div>
                         <div class="member-info">
-                            <h3 class="subtitle">DR. CHIRAG MASTER</h3>
+                            <h3 class="subtitle" itemprop="name">DR. CHIRAG MASTER</h3>
                             <p class="text-muted">M.S. (Orthopaedics)</p>
                             <p>
                                 Consultant Orthopaedic & Joint Replacement Surgeon.
@@ -371,12 +389,14 @@
                                     <a href="#"><i class="fa fa-google-plus"></i></a>
                                     <a href="#"><i class="fa fa-linkedin"></i></a>
                                 </div>*@
+                            <p itemprop="description">
                             <p>
                                 He has completed his M.S. (Orthopaedics) from Medical College & S.S.G.H., Baroda in 2011. He continued his work as Senior Resident (SR) for 1 year in S.S.G.Hospital, Baroda.
                             </p>
                             <p>He joined Navrang Hospital, Baroda as Consultant Orthopaedic Surgeon with Dr. Mahesh Patel. He started his training in Joint Replacement & Arthroscopy under him. During this time period, he has attended many National & International conferences & Hands on Workshops. He is specially trained in complex trauma, Primary and Revision Replacement surgery, Minimal Invasive & computer assisted navigation Replacement surgery.</p>
                             <p>His interest in Joint Reconstruction took him to South Korea, where he did his fellowship in Hip & Pelvis Reconstruction at Chon-Buk National University, Jeonju with Prof. MS Park & SJ Yoon.</p>
                             <p>There he got extensive training in all aspect of HIP & PELVIS surgeries including minimal invasive, Revision Joint Replacement & Arthroscopy Surgery, various Osteotomies etc. With this, he has also gained knowledge in shoulder & knee surgeries from well known professors of this university. During his Fellowship, He has presented international case report & many presentations.</p>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -574,12 +594,19 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="footer-info padding">
+                        <div class="footer-info padding" itemprop="hospitalAffiliation" itemscope itemtype="http://schema.org/Hospital">
                             <h3>CONTACT US</h3>
-                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> 12-A, Nuclear Park Soc., Opp. Nandish Complex, 30 mtr. Narayan Garden Road, New Alkapuri, Opp. Yash Complex, Gotri, Vadodara-390021 Gujarat INDIA</p>
-                            <p><a href="mailto:someone@example.com" target="_top"><i class="fa fa-paper-plane" aria-hidden="true"></i>support@aashrayhospital.com</a></p>
+                            <span itemprop="name">Aashray Hospital</span><br>
+                            <p itemscope itemtype="http://schema.org/PostalAddress">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i> <span itemprop="streetAddress" class="street-address">12-A, Nuclear Park Soc., Opp. Nandish Complex, 30 mtr. Narayan Garden Road, New Alkapuri, Opp. Yash Complex, Gotri,</span>
+                                <span itemprop="addressLocality" class="locality"> Vadodara</span>-
+                                <span itemprop="postalCode" class="postal-code">390021</span>
+                                <span itemprop="addressRegion" class="region">Gujarat</span>
+                                <span itemprop="addressCountry" class="country"> INDIA</span>
+                            </p>
+                            <p><a href="mailto:support@aashrayhospital.com" target="_top"><i class="fa fa-paper-plane" aria-hidden="true"></i>support@aashrayhospital.com</a></p>
                             <p><a href="mailto:aashrayhospital@gmail.com" target="_top"><i class="fa fa-paper-plane" aria-hidden="true"></i>aashrayhospital@gmail.com</a></p>
-                            <p><i class="fa fa-phone" aria-hidden="true"></i>+91 265 2370837</p>
+                            <p><i class="fa fa-phone" aria-hidden="true" itemprop="telephone"></i>+91 265 2370837</p>
                         </div>
                     </div>
                     <div class="col-md-4">
