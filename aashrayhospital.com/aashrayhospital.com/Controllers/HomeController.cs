@@ -39,16 +39,20 @@ namespace aashrayhospital.com.Controllers
         {
             try
             {
-                Task.Run(() =>
+                if (!string.IsNullOrEmpty(email))
                 {
-                    string body =
-                        string.Format("Name:{0} <br> Email:{1} <br> Phone:{2} <br> Subject:{3} <br> Message:{4}", name,
-                            email, phone, subject, message);
-                    EmailHelper.SendMail(subject, body, "aashrayhospital@gmail.com", replyTo: email,
-                        replayToName: name);
-                });
+                    Task.Run(() =>
+                    {
+                        string body =
+                            string.Format("Name:{0} <br> Email:{1} <br> Phone:{2} <br> Subject:{3} <br> Message:{4}",
+                                name,
+                                email, phone, subject, message);
+                        EmailHelper.SendMail(subject, body, "aashrayhospital@gmail.com", replyTo: email,
+                            replayToName: name);
+                    });
 
-                Task.Run(() => EmailHelper.SendMail("Thank you", "We will contact you back", email));
+                    Task.Run(() => EmailHelper.SendMail("Thank you", "We will contact you back", email));
+                }
             }
             catch (Exception ex)
             {
