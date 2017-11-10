@@ -23,11 +23,11 @@ namespace aashrayhospital.com
             }
             else
             {
-                routes.MapRoute(
-    name: "Default_Demo",
-    url: "demo",
-    defaults: new { controller = "Home", action = "index" }
-);
+//                routes.MapRoute(
+//    name: "Default_Demo",
+//    url: "demo",
+//    defaults: new { controller = "Home", action = "index" }
+//);
 
                 routes.MapRoute(
                     name: "Default",
