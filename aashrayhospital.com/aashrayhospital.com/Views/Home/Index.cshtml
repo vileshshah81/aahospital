@@ -288,13 +288,16 @@
                                         <textarea name="message" id="novs-message" class="form-control" rows="6" placeholder="Message" required="required"></textarea>
                                     </div>
                                 </div>
-                                @*<div style="padding: 15px; " class="col-md-12 mt20 g-recaptcha" data-sitekey="6LcjJDgUAAAAAB7LbnnlVDn4fIC6-3UDTAimBY4Y"></div>*@
+                                <div style="padding: 15px; " class="col-md-12 mt20 g-recaptcha" data-sitekey="6LcjJDgUAAAAAB7LbnnlVDn4fIC6-3UDTAimBY4Y"></div>
                                 <div class="col-md-12 mt20">
-                                    <button class="btn btn-default g-recaptcha"
+                                    <button class="btn btn-default">
+                                        Book Appointment
+                                    </button>
+                                    @*<button class="btn btn-default g-recaptcha"
                                             data-sitekey="6LcfJDgUAAAAAJQoYBdxUw78WINzWC3i3_ePammx"
                                             data-callback="YourOnSubmitFn">
                                         Book Appointment
-                                    </button>
+                                    </button>*@
                                 </div>
                             </div>
                         </form>
@@ -701,6 +704,11 @@
 
     <!-- Main js-->
     <script src="~/Content/assets/js/main_script.js"></script>
+    <script>
+        function YourOnSubmitFn(token) {
+            document.getElementById("appointment-form").submit();
+        }
+    </script>
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
