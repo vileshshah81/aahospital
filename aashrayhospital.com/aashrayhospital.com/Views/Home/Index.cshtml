@@ -288,9 +288,13 @@
                                         <textarea name="message" id="novs-message" class="form-control" rows="6" placeholder="Message" required></textarea>
                                     </div>
                                 </div>
-                                <div style="padding: 15px; " class="col-md-12 mt20 g-recaptcha" data-sitekey="6LcjJDgUAAAAAB7LbnnlVDn4fIC6-3UDTAimBY4Y"></div>
+                                @*<div style="padding: 15px; " class="col-md-12 mt20 g-recaptcha" data-sitekey="6LcjJDgUAAAAAB7LbnnlVDn4fIC6-3UDTAimBY4Y"></div>*@
                                 <div class="col-md-12 mt20">
-                                    <button class="btn btn-default">Book Appointment</button>
+                                    <button class="btn btn-default g-recaptcha"
+                                            data-sitekey="6LcfJDgUAAAAAJQoYBdxUw78WINzWC3i3_ePammx"
+                                            data-callback="YourOnSubmitFn">
+                                        Book Appointment
+                                    </button>
                                 </div>
                             </div>
                         </form>
